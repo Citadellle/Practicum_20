@@ -13,6 +13,12 @@ class NavalBattle:
     playing_field  = []
 
     def __init__(self, symbol):
+        '''
+        Initializes a new NavalBattle instance.
+
+        Args:
+            symbol (str): The symbol to mark broke ships.
+        '''
         self.symbol = symbol
 
     @staticmethod
